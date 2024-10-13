@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=V, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styleFood.css" />
+    <script src="./assets/js/script.js" defer></script>
+    <title>Food-menu</title>
+    <link rel="shortcut icon" href="./SafariChic.jpg" type="image/svg+xml" />
+</head>
+
+  <body id="top">
+    <header class="header" data-header>
+      <div class="container">
+        <h1>
+          <a href="index.html" class="logo">SafariChic<span class="span">.</span></a>
+        </h1>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li class="nav-item">
+              <a href="index.html" class="navbar-link" data-nav-link>Accueil</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="about.html" class="navbar-link" data-nav-link>A propos de nous</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="food-menu.html" class="navbar-link" data-nav-link>Menu</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="blog.html" class="navbar-link" data-nav-link>Blog</a>
+            </li>
+
+            <!--<li class="nav-item">
+              <a href="#" class="navbar-link" data-nav-link>contact us</a>
+            </li>-->
+          </ul>
+        </nav>
+
+        <div class="header-btn-group">
+          <!--<button class="search-btn" aria-label="Search" data-search-btn>
+            <ion-icon name="search-outline"></ion-icon>
+          </button>-->
+
+          <!--<button class="btn btn-hover"><a href="#footer">Reservez une Table</a></button>-->
+
+          <button
+            class="nav-toggle-btn"
+            aria-label="Toggle Menu"
+            data-menu-toggle-btn
+          >
+            <span class="line top"></span>
+            <span class="line middle"></span>
+            <span class="line bottom"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section food-menu" id="food-menu">
+        <div class="container">
+          <p class="section-subtitle">Menus populaires</p>
+
+          <h2 class="h2 section-title">
+            Nos delicieux <span class="span">Repas</span>
+          </h2>
+
+          <p class="section-text">
+            Un repas est toute substance consommable qui constitue un support nutritionnel pour l'organisme.
+          </p>
+
+          <!--<ul class="fiter-list">
+            <li>
+              <button class="filter-btn active">All</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Pizza</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Burger</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Drinks</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Sandwich</button>
+            </li>
+          </ul>-->
+
+          <ul class="food-menu-list">
+            <li>
+              <div class="food-menu-card">
+                <div class="card-banner">
+                  <img
+                    src="./assets/images/240_F_617536429_nChg7uyyrydYqQrdf3PEtNLHFjLjzmvX.jpg"
+                    width="300"
+                    height="300"
+                    loading="lazy"
+                    alt="Fried Chicken Unlimited"
+                    class="w-100"
+                  />
+
+                  <div class="badge">-15%</div>
+
+                  <button class="btn food-menu-btn">Ajouter au Panier</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Plat camerounais</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Taro sauce jaune + légume sauter</h3>
+
+                <div class="price-wrapper">
+                  <p class="price-text">Prix:</p>
+
+                  <data class="price">2500 FCFA</data>
+
+                  <del class="del" value="69.00">3000 FCFA</del>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+                <div class="card-banner">
+                  <img
+                    src="./assets/images/vue-cote-aigre-pilaf-agneau-ragout-oignon-frit-fruits-secs-chataignes-gateau-plaque_141793-5102.webp"
+                    width="300"
+                    height="300"
+                    loading="lazy"
+                    alt="Burger King Whopper"
+                    class="w-100"
+                  />
+
+                  <div class="badge">-10%</div>
+
+                  <button class="btn food-menu-btn">Ajouter au Panier</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Plat africain</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Riz + pilaf de viande de boeuf</h3>
+
+                <div class="price-wrapper">
+                  <p class="price-text">Prix:</p>
+
+                  <data class="price" value="29.00">1500 FCFA</data>
+
+                  <del class="del">2000 FCFA</del>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+                <div class="card-banner">
+                  <img
+                    src="./assets/images/IMG-20240310-WA0017.jpg"
+                    width="300"
+                    height="300"
+                    loading="lazy"
+                    alt="White Castle Pizzas"
+                    class="w-100"
+                  />
+
+                  <div class="badge">-25%</div>
+
+                  <button class="btn food-menu-btn">Ajouter au Panier</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Plat camerounais</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">poulet braiser + miondo</h3>
+
+                <div class="price-wrapper">
+                  <p class="price-text">Prix:</p>
+
+                  <data class="price" value="49.00">1000 FCFA</data>
+
+                  <del class="del">2000 FCFA</del>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+                <div class="card-banner">
+                  <img
+                    src="./assets/images/re.jpg"
+                    width="300"
+                    height="300"
+                    loading="lazy"
+                    alt="Bell Burrito Supreme"
+                    class="w-100"
+                  />
+
+                  <div class="badge">-20%</div>
+
+                  <button class="btn food-menu-btn">Ajouter au Panier</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Plat africain</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Michoui de poulet</h3>
+
+                <div class="price-wrapper">
+                  <p class="price-text">Prix:</p>
+
+                  <data class="price" value="59.00 ">5000 FCFA</data>
+
+                  <del class="del">7000 FCFA</del>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+                <div class="card-banner">
+                  <img
+                    src="./assets/images/re1.jpg"
+                    width="300"
+                    height="300"
+                    loading="lazy"
+                    alt="Kung Pao Chicken BBQ"
+                    class="w-100"
+                  />
+
+                  <div class="badge">-5%</div>
+
+                  <button class="btn food-menu-btn">Ajouter au Panier</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Plat camerounais</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Okock sucre + manioc</h3>
+
+                <div class="price-wrapper">
+                  <p class="price-text">Prix:</p>
+
+                  <data class="price" value="49.00">2500 FCFA</data>
+
+                  <del class="del">3000 FCFA</del>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+                <div class="card-banner">
+                  <img
+                    src="./assets/images/re2.jpg"
+                    width="300"
+                    height="300"
+                    loading="lazy"
+                    alt="Wendy's Chicken"
+                    class="w-100"
+                  />
+
+                  <div class="badge">-15%</div>
+
+                  <button class="btn food-menu-btn"><a href="">Ajouter au panier</a></button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Plat africain</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Sauce cacaouette de viande de boeuf + plantain mûre</h3>
+
+                <div class="price-wrapper">
+                  <p class="price-text">Prix:</p>
+
+                  <data class="price" value="49.00">1000 FCFA</data>
+
+                  <del class="del">2000 FCFA</del>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright-text">
+            &copy; 2024 <a href="#" class="copyright-link"></a> All Rights
+            Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="Back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up"></ion-icon>
+    </a>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+</body>
+</html>

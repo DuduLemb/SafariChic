@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.css"
+    />
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="Register">
+      <div class="container">
+      <img
+        src="../SafariChic/assets/images/nourriture-indienne-assortie-129630877.jpg"
+        alt="register-image"
+        class="register-image"
+      />
+
+      <form class="register-form">
+        <h1 class="register-title">Register</h1>
+
+        <div class="register-content">
+          <div class="register-box">
+            <i class="ri-user-3-line register-icon"></i>
+            <div class="register-box-input">
+              <input
+                type="text"
+                class="register-input"
+                id="register-text"
+                required
+                placeholder=""
+              />
+              <label for="register-email" class="register-label">Name</label>
+            </div>
+          </div>
+          <div class="register-box">
+            <i class="ri-lock-2-line register-icon"></i>
+            <div class="register-box-input">
+              <input
+                type="text"
+                class="register-input"
+                id="register-text"
+                required
+                placeholder=" "
+              />
+              <label for="register-text" class="register-label">Tel</label>
+            </div>
+          </div>
+          <div class="register-box">
+            <i class="ri-user-2-line register-icon"></i>
+            <div class="register-box-input">
+              <input
+                type="email"
+                class="register-input"
+                id="register-email"
+                required
+                placeholder=" "
+              />
+              <label for="register-email" class="register-label">Email</label>
+            </div>
+          </div>
+          <div class="register-box">
+            <i class="ri-lock-2-line register-icon"></i>
+            <div class="register-box-input">
+              <input
+                type="password"
+                class="register-input"
+                id="register-pass"
+                required
+                placeholder=" "
+                minlength="8"
+              />
+              <label for="register-pass" class="register-label">Password</label>
+              <i class="ri-eye-off-line register-eye" id="register-eye"></i>
+              <!-- <i class="ri-eye-line"></i> -->
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="register-button">Register</button>
+        <p class="register-login">
+          I have an account? <a href="index0.html">Login</a>
+        </p>
+      </form>
+    </div>
+  </body>
+  <script src="script1.js"></script>
+</html>
